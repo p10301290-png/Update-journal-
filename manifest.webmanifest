@@ -1,0 +1,89 @@
+{
+ "id": "/",
+ "name": "Topper Journal – CG Board Class 10",
+ "short_name": "Topper Journal",
+ "description": "CG Board Class 10 study tracker: study log, tests, mistakes, syllabus, weekly review.",
+ "lang": "hi",
+ "dir": "ltr",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "display_override": [
+  "standalone",
+  "minimal-ui"
+ ],
+ "orientation": "portrait",
+ "background_color": "#5b3df0",
+ "theme_color": "#6a4cf0",
+ "categories": [
+  "education",
+  "productivity"
+ ],
+ "prefer_related_applications": false,
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Study session likho",
+   "short_name": "Study session likho",
+   "url": "./?a=log",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "Test daalo",
+   "short_name": "Test daalo",
+   "url": "./?a=test",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "Galti likho",
+   "short_name": "Galti likho",
+   "url": "./?a=mis",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "Focus Timer",
+   "short_name": "Focus Timer",
+   "url": "./?a=tmr",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  }
+ ]
+}
